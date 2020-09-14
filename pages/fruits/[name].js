@@ -11,7 +11,6 @@ function Fruit() {
   return (
     <Container>
       <Card>
-        <Card.Img variant="top" src={currentFruit.img} />
         <Card.Body>
           <Card.Title>{currentFruit.name}</Card.Title>
           <Card.Text>
