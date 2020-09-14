@@ -24,4 +24,8 @@ function Fruit() {
   );
 }
 
+export async function getStaticPaths() {
+  return { paths: fruits.map((fruit) => fruit.name), fallback: false };
+}
+
 export default Fruit;
